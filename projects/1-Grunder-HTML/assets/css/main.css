@@ -1,0 +1,28 @@
+body {
+    border: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:line-through;
+    
+}
+ul {
+    background-color:aquamarine;
+    list-style-type: none;
+    padding-left: 0px;
+}

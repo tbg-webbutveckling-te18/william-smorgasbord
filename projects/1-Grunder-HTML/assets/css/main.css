@@ -3,8 +3,16 @@ body {
     margin: 0px;
     align-items: center;
     text-align: center;
+    background-color:darkred;
 }
-
+h1{
+    color:black;
+    font-size:32px;
+}
+p{
+    font-style:italic;
+    letter-spacing: 2px;
+}
 a {
     text-decoration: none;
 }
@@ -16,13 +24,24 @@ a:hover {
 li {
     list-style-type: none;
 }
+ul{
+    background-color:black;
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul li{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
 nav ul li a{
     color: #fff;
     text-decoration:line-through;
     
 }
 ul {
-    background-color:aquamarine;
+    background-color:black;
     list-style-type: none;
     padding-left: 0px;
 }

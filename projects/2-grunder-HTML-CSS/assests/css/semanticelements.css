@@ -2,6 +2,7 @@
     background-color: darkolivegreen;
 }
 
+
 body{
     background-color: #3c40c6;
     margin: 0px;
@@ -22,19 +23,32 @@ section#wrapper p{
     padding: 5px;
     text-align: center;
 }
-
+section#standard-unqic{
+    margin-right: 0px;
+    background-color: brown;
+}
 section.standard-section{
     width: 200px;
     height: 200px;
     
     background-color: green;
-    margin: 5px;
-    box-shadow: 7px 7px 0px #000
+    margin: auto;
+    box-shadow: 7px 7px 0px #000;
     
 }
 
+section.standard-child{
+    width: 100%;
+    height: 50px;
+    
+    background-color:#485460;
+    border-bottom-color: blue;
+}
 
 section.standard-section img {
     display:inline;
     
+}
+.highlighted:hover{
+    background-color:black;
 }

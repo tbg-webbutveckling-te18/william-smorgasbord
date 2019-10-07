@@ -4,6 +4,8 @@ background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-2
 background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 margin: 0px;
+font-family: 'Lobster', cursive;
+
 
 }
 section#wrapper{
@@ -17,7 +19,47 @@ section#wrapper{
 header {
     border: 1px solid black;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-header img  {
+
+header h1{
+    color: white;
+    font-size: 75px;
+    margin: 0;
    
+    
+}
+
+nav{
+    Border
+}
+
+nav ul#mainNavigation{
+    display:flex;
+    justify-content: space-around;
+    padding-left:20px;
+    list-style: none;
+    margin: 0px;
+}
+
+
+
+
+ul#mainNavigation a{
+   text-decoration: none;
+    color:black;
+    font-size: 25px;
+    
+    
+}
+
+ul#mainNavigation a:hover{
+    cursor: pointer;
+    color:crimson;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
 }

@@ -15,3 +15,9 @@ lätt att hitta på hemsidan. enkel design och telefon nummer och email längst 
 # beskrvning av webbplatsen
 simpel och elegant och lätt att använda för alla åldrar.
 
+# innehållet på min webbplats/
+elegant stil och klass, inbjudande
+
+# design och form
+mjuk och fina former med inbjudande färg schema
+

@@ -21,3 +21,20 @@ elegant stil och klass, inbjudande
 # design och form
 mjuk och fina former med inbjudande färg schema
 
+# text 
+mitt text innehåll kommer vara om vad jag håller på med och för att lättare för medla vad jag håller på med
+
+# bild 
+bilder jag har med är för att fixa intresse för folk så att dom använder oss
+
+# röliga bilder
+ska inte ha rörliga bilder
+
+# ljud 
+ska inte ha något ljud på min hemsida
+
+# interaktiviteter
+jag ska ha om man håller på flikar blir dom highlightade
+
+# funktioner
+jag ska ha olika 

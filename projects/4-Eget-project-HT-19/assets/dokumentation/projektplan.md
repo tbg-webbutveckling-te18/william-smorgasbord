@@ -37,4 +37,4 @@ ska inte ha något ljud på min hemsida
 jag ska ha om man håller på flikar blir dom highlightade
 
 # funktioner
-jag ska ha olika 
+jag ska ha olika saker och ting för att förbättra upplevelse

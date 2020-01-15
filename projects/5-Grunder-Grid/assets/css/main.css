@@ -1,0 +1,46 @@
+@charset "utf-8";
+body {
+    background-color: #3c40c6;
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    background-color:#c6c23c ;
+    width: 80vw;
+    height:100vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 10px 0 10px black, -10px 0 10px black;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.grid-item:nth-child(1){
+    background-color: #0be881;
+    
+}
+.grid-item:nth-child(2){
+    background-color:#ffa801;
+    
+}
+.grid-item:nth-child(3){
+    background-color: #485460;
+    
+}
+.grid-item:nth-child(4){
+   background-color: #ef5777;
+}
+
+.grid-item:nth-child(5){
+   background-color: #00d8d6;
+}
+
+.grid-item:nth-child(6){
+   background-color: purple;
+
+
+    

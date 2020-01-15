@@ -112,3 +112,27 @@ newsletter form{
     height:25px;
     width:250px;
 }
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box img{
+    width:90px;
+}
+
+footer{
+   padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:linear-gradient(to top, #1488cc, #2b32b2);
+    text-align:center;
+}
+

@@ -5,8 +5,38 @@ body{
 }
 
 .grid-container {
+    display:grid;
     width:80vw;
     min-height:90vh;
     
-    border:
+    border:1px dotted black;
+    margin: auto;
+    grid-auto-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    
+}
+
+.grid-container a{
+color: black;
+font-size:35px;
+box-shadow: 12px;
+}
+.grid-container a{
+    font-family: 'Lobster', cursive;
+}
+    
+    
+    
+    
+    
+    
+}
+
+ul#mainNavigation a:hover{
+    cursor: pointer;
+    color:crimson;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
 }

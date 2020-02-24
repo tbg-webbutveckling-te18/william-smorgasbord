@@ -5,28 +5,63 @@ body{
 
     margin: 0px;
     padding: 0px;
+    display:flex;
+    align-items:center;
+    border:solid 2px;
+    height:100vh;
 
 }
-.gridcontainer{
+.grid-container{
     display: grid;
+    background-color: white;
+    margin:auto;
+    
+    
     grid-template-areas: 
-        "1 2 3"
-        "4 5 6"
-        "7 8 9";
-    grid-gap: 16px;
+        ". top ."
+        
+        "left . right"
+        
+        ". bottom ."
     
-    width: 75%;
-    min-height: 95vh;
+        ;
     
-    border: 2px solid black;
-    margin: auto;
+    
+    width:80%;
+    border:solid 1px black;
+    height: 80vh;
+    
+}
+.grid-item{
     
 }
 
-.grid-item:nth-child(even) {
-    background-color: aliceblue;
+.grid-item:nth-child(1) {
+    grid-area:top;
+    border-left:solid 2px;
+    border-right:solid 2px;
+    border-bottom:solid 2px;
 }
 
-.grid-item:nth-child(odd) {
-    background-color: #173e60;
+.grid-item:nth-child(2) {
+    grid-area:left;
+    border-top:solid 2px;
+    border-bottom:solid 2px;
+    border-right: solid 2px;
+   
+}
+
+.grid-item:nth-child(3){
+    grid-area:right;
+    border-top:solid 2px;
+    border-bottom:solid 2px;
+    border-left:solid 2px;
+}
+
+.grid-item:nth-child(4){
+    grid-area:bottom;
+    border-left:solid 2px;
+    border-top:solid 2px;
+    border-right:solid 2px;
+    
 }

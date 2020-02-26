@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+    body{
+        background-color: #3c40c6;
+        
+}
+
+h1{
+    display:flex;
+    align-items:center;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr
+    
+}

@@ -24,5 +24,7 @@ h1{
 }
 
 .grid-item{
-    border: 
+    border: solid 2px;
+    background-position: center;
+    transition:
 }

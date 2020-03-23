@@ -26,5 +26,13 @@ h1{
 .grid-item{
     border: solid 2px;
     background-position: center;
-    transition:
+    transition: transform 0.2s;
+}
+
+.grid-item:hover{
+    transform: scale(1.6)
+}
+
+.grid-item:nth-child(1){
+background-image: 
 }

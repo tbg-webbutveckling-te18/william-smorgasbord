@@ -30,9 +30,48 @@ h1{
 }
 
 .grid-item:hover{
-    transform: scale(1.6)
+    transform: scale(1.3)
 }
 
 .grid-item:nth-child(1){
-background-image: 
+background-image: url(../assets/img/a%20moutain%20lake.jpg);
+background-size:cover;
+}
+
+.grid-item:nth-child(2){
+    background-image:url(../assets/img/a%20nice%20view.jpg);
+    background-size:cover;
+}
+
+.grid-item:nth-child(3){
+    background-image:url(../assets/img/black%20beach.jpg);
+    background-size:cover;
+    
+}
+.grid-item:nth-child(4){
+    background-image:url(../assets/img/black%20mountains.jpg);
+    background-size:cover;
+}
+
+.grid-item:nth-child(5){
+    background-image:url(../assets/img/djungel.jpg);
+    background-size:cover;
+}
+
+.grid-item:nth-child(6){
+    background-image:url(../assets/img/slopes%20and%20wallys.jpg);
+    background-size:cover;
+}
+
+.grid-item:nth-child(7){
+    background-image:url(../assets/img/snowy%20moutains.jpg);
+    background-size:cover;
+}
+.grid-item:nth-child(8){
+    background-image:url(../assets/img/stream.jpg);
+    background-size:cover;
+}
+.grid-item:nth-child(9){
+    background-image:url(../assets/img/tall%20snowy%20moutain.jpg);
+    background-size:cover;
 }

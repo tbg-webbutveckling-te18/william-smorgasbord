@@ -7,4 +7,38 @@ body {
 
 article {
     border:solid 15px #34495e;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 90vh;
+    width: 60;
+    padding: 20px;
+
 }
+
+date{
+    color: black;
+    padding-top: 40;
+    margin-left: 20;
+
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.inledning{
+    border-left: solid 4px #34495e;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+
+hr{
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #34495e;
+    border-style:solid;
+}
+
+

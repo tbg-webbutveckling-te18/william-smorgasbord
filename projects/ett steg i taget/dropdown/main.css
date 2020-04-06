@@ -1,0 +1,56 @@
+@charset'urf-8';
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+ul {
+    list-style:none;
+}
+
+body {
+    background-color: #74b9ff;
+}
+.Huvudmenyn {
+    display: flex;
+    justify-content: space-between;
+    font-size:40px;
+    background-color: #0984e3;
+    height: 60px;    
+}
+
+.Huvudmenyn li {
+    line-height: 60px;
+}
+
+.Hover-menu2:hover .Drop-menu2 {
+    visibility: visible;
+    height: 150px;
+    opacity: 1;
+}
+
+.Drop-menu2 {
+    font-size: 20px;
+    visibility: hidden;
+    height: 0px;
+    transition: all 1.3s;
+    opacity: 0;
+    outline: 0;
+    
+}
+
+.Drop-Hover-Menu2:Hover .Drop-Drop-Menu2 {
+    visibility: visible;
+    height: 150px;
+    opacity: 1;
+}
+
+.Drop-Drop-Menu2 {
+    font-size: 15px;
+    visibility: hidden;
+    height: 0px;
+    transition: all 1.3s;
+    opacity: 0;
+    outline: 0;
+}

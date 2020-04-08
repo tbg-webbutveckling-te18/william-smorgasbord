@@ -24,13 +24,13 @@ body {
     line-height: 60px;
 }
 
-.Hover-menu2:hover .Drop-menu2 {
+.Hover-Menu2:hover .Drop-menu2 {
     visibility: visible;
     height: 150px;
     opacity: 1;
 }
 
-.Drop-menu2 {
+.Drop-Menu2 {
     font-size: 20px;
     visibility: hidden;
     height: 0px;

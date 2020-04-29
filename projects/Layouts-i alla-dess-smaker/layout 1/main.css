@@ -1,5 +1,22 @@
+@charset 'utf-8';
 
 
-width:50px;
-height 
-background-color: ;
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    height:100vh;
+}
+
+header{
+    background-color: aqua;
+    
+    height: 100px;
+}
+
+nav {
+    background-color: 
+}

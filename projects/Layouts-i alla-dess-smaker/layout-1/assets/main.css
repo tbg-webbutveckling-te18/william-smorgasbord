@@ -18,5 +18,14 @@ header{
 }
 
 nav {
-    background-color: 
+    background-color: red;
+    
+    height:30px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.container-parent {
+    display:flex;
+    height:765px;
 }

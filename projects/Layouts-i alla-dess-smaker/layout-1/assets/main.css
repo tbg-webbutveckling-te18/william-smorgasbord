@@ -29,3 +29,25 @@ nav {
     display:flex;
     height:765px;
 }
+
+.container-left{
+    background-color: white;
+        
+    width:70%;
+    margin-right:20px;
+    display:flex;
+    flex-flow:column;
+}
+
+container-right{
+    background-color: white;
+    
+    width: 30%;
+}
+
+.item-left{
+    background-color:aqua;
+    flex:1;
+    
+    
+}

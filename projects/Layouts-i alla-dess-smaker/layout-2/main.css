@@ -1,0 +1,30 @@
+@charset'utf-8'
+
+    *{
+        padding:0px;
+        margin:0px;
+}
+
+body {
+    height:100vh;
+}
+
+
+header{
+    display:flex;
+    height:60px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background-color: grey;
+    height:100%;
+    width:30%;
+    margin-right: 500px;
+}
+
+.header-ad {
+    background-color: orange;
+    
+    height:30px;
+}

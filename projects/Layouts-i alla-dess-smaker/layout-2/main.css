@@ -25,6 +25,19 @@ header{
 
 .header-ad {
     background-color: orange;
+    height:100%;
+    width:70%;
+    
+}
+
+nav{
+    background-color: grey;
     
     height:30px;
+    margin-bottom:20px;
+}
+
+.container-parent{
+    height:700px;
+    
 }

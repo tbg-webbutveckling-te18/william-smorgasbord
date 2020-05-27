@@ -62,4 +62,50 @@ nav{
     flex-flow:column;
 }
 
-.container-r
+.container-right{
+    height:100%;
+    width:25%;
+    background-color: right;
+    flex-flow: column;
+}
+
+.item-left:nth-child(-n+2){
+    height:25%;
+    width:100%;
+    margin-bottom:20px;
+    background-color: grey;
+}
+
+.item-left:nth-child(3){
+    height:50%;
+    width:100%;
+    margin-bottom:20px;
+    background-color: grey;
+}
+
+.item-middle:nth-child(1){
+    height:35%;
+    width:100%;
+    margin-bottom:20px;
+    background-color: grey;
+}
+
+.item-middle:nth-child(2){
+    height:65%;
+    width:100%;
+    background-color: grey;
+}
+
+.item-right:nth-child(1){
+    height:25%;
+    width:100%;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+
+.item-right:nth-child(2){
+    height:45%;
+    width:100%;
+    
+}
+

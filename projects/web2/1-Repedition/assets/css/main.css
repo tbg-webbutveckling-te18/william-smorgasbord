@@ -5,8 +5,19 @@ body {
 
 h1{
     font-size: 60px;
+    color: white;
+
 }
 
 p{
     font-size: 15px;
+}
+a{
+    color: black;
+}
+a:active{
+    color:yellow;
+}
+a:visited {
+    color: pink;
 }

@@ -16,9 +16,38 @@ if (lesson == 'history'){
     console.log('spare time!');
 }
 
-var isSunnny = false;
+var isSunny = false;
 if (isSunny == true){
     console.log('Put on some shorts today.');
 } else {
     console.log('Put on some warm clothes today.');
+}
+
+var d = new Date();
+
+if (d.getHours() < 18){
+    console.log('Good day!');
+}else{
+    console.log('Good evening!');
+}
+
+if (d.getHours() < 10){
+    console.log('Good morning!');
+}else if (d.getHours() < 18){
+    console.log('Good day');
+}else {
+    console.log('Good evening');
+}
+
+
+if (d.getHours() < 10){
+    if(d.getMonth() > 9 || d.getMonth() < 2) {
+        console.log('Go ahead and sleep like a bear!')
+    }else{
+        console.log('Good morning!');
+    }
+}else if (d.getHours() < 18){
+    console.log('Good day');
+}else {
+    console.log('Good evening');
 }

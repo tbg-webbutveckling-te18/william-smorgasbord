@@ -51,3 +51,52 @@ if (d.getHours() < 10){
 }else {
     console.log('Good evening');
 }
+
+
+
+var grade ='A';
+switch(grade){
+    case 'A':
+        console.log('Great job');
+    break;
+
+    case 'B':
+        console.log('well done')
+    break;
+
+    case 'C':
+        console.log('you can achive more')
+    break;
+
+    case 'D':
+        console.log('strive further')
+    break;
+
+    case 'E':
+        console.log('you need to pull youreself up')
+
+    default:
+        console.log('Unknown grade!')
+
+}
+
+
+
+var whatday = new Date();
+switch(whatday.getDay()) {
+ case '0':
+ console.log('Today is Sunday')
+   break;
+ case '1':
+ console.log('Today is Monday')
+   break;
+ case '2':
+ console.log('Today is Tuesday')
+   break;
+ case '3':
+ console.log('Today is Wednesday')
+    break;
+
+
+
+}

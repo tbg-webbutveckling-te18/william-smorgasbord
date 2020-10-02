@@ -57,10 +57,27 @@ for(var i =10; i < 41; i++){
 document.writeln('----------------------------<br>')
 
 for(var i =300; i < 334; i++){
-    if(i % 2 !=0 ){
+    if (i % 2 !==0 ) {
     document.writeln(i + '<br>');
+    }
 
+}
 document.writeln('----------------------------<br>')
 
-for(var i =300; i < 334; i++){
+for(var i =0; i < 1; i++){
+    if (i % 2 ==0 ) {
     document.writeln(i + '<br>');
+      }
+}
+
+
+
+
+for(var i = 0; i < 5; i++){
+    for(var j = 0; j < 5; j++){
+        document.writeln('*' );
+    }
+    document.writeln('<br>');
+}
+
+document.writeln('----------------------------<br>')

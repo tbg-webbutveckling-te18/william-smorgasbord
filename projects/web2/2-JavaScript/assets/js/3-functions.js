@@ -51,8 +51,47 @@ document.writeln('<br>' + area(5,10));
 
 
 function quadrupleMe(x) {
-    retrun 4 * x;
+    return 4 * x;
 }
-var myNubmer = quadrupleMe(4);
-alert(myNubmer);
+var myNumber = quadrupleMe(4);
+alert(myNumber);
+
+
+var buttonNumber = document.getElementById('myNumber');
+
+buttonNumber.innerHTML = '<strong>My favourite</strong> number is ' + myNumber;
+
+function capitalize(str){
+    return str.charAt('').toUpperCase() + str.slice(1);
+}
+
+var city ='stockholm';
+var capital = capitalize(city);
+document.writeln('<br> Capital of Sweden is: ' + capital);
+
+
+function isEven(dad){
+    if (dad % 2 == 0){
+        return true
+
+    }
+}
+function isEven(dad){
+    if (dad % 2 != 0){
+        return false
+    }
+}
+
+
+
+function kebabToSnake(kebstring){
+    return document.writeln(kebstring.replaceAll('-','_'));
+} 
+
+var papi = "No-do";
+
+kebstring = papi
+
+kebabToSnake(kebstring)
+
 

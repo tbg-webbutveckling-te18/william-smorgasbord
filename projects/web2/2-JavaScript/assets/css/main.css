@@ -2,3 +2,29 @@
 body{
     background-color: #3c40c6;
 }
+
+.time { 
+    display: flex;
+}
+.time > * {
+    margin: 5px;
+}
+
+.stopTime {
+    background-color: #000000;
+    color: silver;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+
+    padding: 5px;
+
+    transition: transform .4s ease;
+
+
+}
+
+.stopTime:active {
+    transform: scale(1.5);
+}

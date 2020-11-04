@@ -145,3 +145,38 @@ doomsStr.style.transition = 'all .4s ease';
 doomsStr.style.fontSize = '60px';
 doomsStr.style.color = 'crimson';
 });
+
+var output = document.getElementById('tellFortune');
+var btnFortune = document.getElementsByTagName('button')[2]
+function tellFortune(barn,partner,plats,jobb){
+     output.innerHTML += `You will be a ${jobb} in ${plats} and married
+     to ${partner} and have ${barn} kids <br>`;
+}
+
+var jobArr = ['Game Designer' , 'Web Developer' , 'Homless' , 'Youtuber' , 'President'];
+var cityArr = ['Lycksele' , 'Stockholm' , 'New York' , 'Moscow' , 'Kingston'];
+var partnerArr = ['Kenneth' , 'Leif' , 'Susan' , 'Michelle' , 'Igor'];
+var kidsArr = [0,1,2,3,4,5];
+
+btnFortune.addEventListener('click', function() {
+    var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];
+
+    tellFortune(randomJob)
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

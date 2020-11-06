@@ -160,10 +160,23 @@ var kidsArr = [0,1,2,3,4,5];
 
 btnFortune.addEventListener('click', function() {
     var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomCity = cityArr[Math.floor(Math.random() * cityArr.length)];
+    var randompartner = partnerArr[Math.floor(Math.random() * partnerArr.length)];
+    var randomkids = kidsArr[Math.floor(Math.random() * kidsArr.length)];
 
-    tellFortune(randomJob)
+
+
+    tellFortune(randomJob,randomCity,randompartner,randomkids)
 
 });
+
+function calculateDogAge(puppy){
+    var dogAge = puppy * 7; 
+    var humanAge = human / 7;
+    document.writeln(`<br> Your doggie is ${dogAge} years old in dog years! <br> and you human is ${humanAge} in dog years! `)
+}
+calculateDogAge(6,33);
+
 
 
 
